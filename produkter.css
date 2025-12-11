@@ -1,0 +1,13 @@
+body {
+  background-color: #d9ccad;
+}
+
+.brunboks {
+  padding: 20px;
+  width: 150px;
+  gap: 20px;
+  background-color: #b49f83;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
