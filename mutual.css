@@ -1,0 +1,83 @@
+@media (min-width: 786px) {
+  header {
+    background-color: #684a30;
+  }
+  ul {
+    display: flex;
+    background-color: #684a30;
+    font-family: "Bebas Neue", system-ui;
+    font-size: 36px;
+    margin: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    gap: 230px;
+  }
+  * {
+    margin: 5px;
+    padding: 3px;
+    box-sizing: content-box;
+    text-decoration: none;
+    list-style: none;
+  }
+}
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background: #b49f83;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    font-size: 36px;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
