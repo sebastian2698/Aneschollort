@@ -82,3 +82,20 @@ p {
   margin-right: auto;
   border: #c2b280;
 }
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  background-color: #f5deb8;
+  font-size: 30px;
+  padding: 5px;
+  font-family: "Oswald", system-ui;
+  align-items: center;
+  gap: 270px;
+}
