@@ -69,3 +69,17 @@ p {
     order: -1;
   }
 }
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: #f5deb8;
+  font-size: 30px;
+
+  font-family: "Oswald", system-ui;
+  align-items: center;
+  gap: 270px;
+}
