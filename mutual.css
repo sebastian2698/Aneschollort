@@ -99,3 +99,8 @@ ul {
   align-items: center;
   gap: 270px;
 }
+
+a {
+  color: #c2b280;
+  font-family: "Oswald", system-ui;
+}
