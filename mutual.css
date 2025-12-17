@@ -90,16 +90,6 @@ p {
   padding: 0;
 }
 
-ul {
-  display: flex;
-  background-color: #f5deb8;
-  font-size: 30px;
-  padding: 5px;
-  font-family: "Oswald", system-ui;
-  align-items: center;
-  gap: 270px;
-}
-
 a {
   color: #c2b280;
   font-family: "Oswald", system-ui;
