@@ -306,6 +306,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
+    background-color: #f5deb8;
+    font-size: 30px;
+
+    font-family: "Oswald", system-ui;
+    align-items: center;
+    gap: 270px;
   }
 
   .fadeIN {
@@ -377,15 +384,6 @@
     border: 4px solid black;
   }
 
-  ul {
-    display: flex;
-    background-color: #f5deb8;
-    font-size: 30px;
-    padding: 5px;
-    font-family: "Oswald", system-ui;
-    align-items: center;
-    gap: 270px;
-  }
   * {
     margin: 1px;
     padding: 2px;
