@@ -104,3 +104,7 @@ a {
   color: #c2b280;
   font-family: "Oswald", system-ui;
 }
+
+a:hover {
+  color: black;
+}
