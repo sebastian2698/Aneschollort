@@ -188,3 +188,45 @@ ul {
   width: 80px; /* halvt så stort */
   border-radius: 50%; /* valgfrit – flot portræt-effekt */
 }
+
+.values-wrapper {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.values-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  color: #5f4b32;
+}
+
+/* GRID */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+/* KOLONNE */
+.value-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #5f4b32;
+}
+
+.value-item p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #5f4b32;
+  margin-bottom: 40px;
+}
+
+/* BILLEDER */
+.value-item img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+}
